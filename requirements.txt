@@ -1,0 +1,10 @@
+# Java AST -> Neo4j ingestion pipeline dependencies
+
+# AST parsing
+javalang==0.13.0
+
+# Neo4j driver (5.x or 6.x compatible)
+neo4j>=5.20.0
+
+# Progress bar
+tqdm==4.66.4
